@@ -51,7 +51,7 @@ class enen_UrbanDict {
 
         // make definition segement
         let definitions = [];
-        let defblocks = doc.querySelectorAll('.def-panel') || [];
+        let defblocks = doc.querySelectorAll('.definition') || [];
         for (const defblock of defblocks) {
             let eng_tran = T(defblock.querySelector('.meaning'));
             if (!eng_tran) continue;
