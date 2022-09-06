@@ -1,5 +1,5 @@
 /* global api */
-class enen_UrbanDict {
+class enen_UrbanDict1 {
     constructor(options) {
         this.options = options;
         this.maxexample = 2;
@@ -10,7 +10,7 @@ class enen_UrbanDict {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return 'Urban英英俚语词典';
         if (locale.indexOf('TW') != -1) return 'Urban英英俚语词典';
-        return 'Urban English Dictionary';
+        return 'Urban English Dictionary 1';
     }
 
 
